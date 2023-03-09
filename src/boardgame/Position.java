@@ -22,6 +22,14 @@ public class Position {
 		return collumn;
 	}
 
+	public void setRow(Integer row) {
+		this.row = row;
+	}
+
+	public void setCollumn(Integer collumn) {
+		this.collumn = collumn;
+	}
+
 	public void setValues(int row, int column) {
 		this.row = row;
 		this.collumn = column;
